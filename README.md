@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Beginner E-Commerce Spring Boot Project
 
 ## Overview
@@ -19,11 +18,25 @@ A simple e-commerce web application built with Spring Boot, demonstrating basic 
 - H2 Database
 - Lombok
 
+## Deployment
+### Deployed Application
+- **Live Site**: [E-Commerce Application](https://vinaysurya24.github.io/e-com-site/)
+
+### Deployment Methods
+1. **GitHub Pages**: 
+   - Automated deployment through GitHub Actions
+   - Jar file and static resources published
+
+2. **Local Deployment**:
+   - Clone the repository
+   - Run `mvn spring-boot:run`
+   - Access at `http://localhost:8080/products`
+
 ## Prerequisites
 - Java 11+
 - Maven
 
-## How to Run
+## How to Run Locally
 1. Clone the repository
 2. Navigate to the project directory
 3. Run `mvn spring-boot:run`
@@ -47,34 +60,6 @@ A simple e-commerce web application built with Spring Boot, demonstrating basic 
 - Database interactions
 - Thymeleaf templating
 - Basic web application structure
-=======
-# Simple Flight Reservation System
 
-## Overview
-A beginner-friendly console-based flight reservation application written in Java.
-
-## Features
-- View available flights
-- Make flight reservations
-- View existing reservations
-
-## How to Run
-1. Ensure you have Java 11+ installed
-2. Navigate to the project directory
-3. Compile: `javac FlightReservationSystem.java`
-4. Run: `java FlightReservationSystem`
-
-## Menu Options
-1. View Available Flights
-2. Make a Reservation
-3. View My Reservations
-4. Exit
-
-## Sample Flights
-- Flight 1: Mumbai to Delhi
-- Flight 2: Bangalore to Chennai
-- Flight 3: Kolkata to Hyderabad
-
-## Note
-This is a simple in-memory application. Reservations are not persistent.
->>>>>>> 085dbd44f1f8aa88eda2a6df9d62c029602448a9
+## Deployment Status
+![Deploy Spring Boot E-Commerce App](https://github.com/VinaySurya24/e-com-site/workflows/Deploy%20Spring%20Boot%20E-Commerce%20App/badge.svg)
