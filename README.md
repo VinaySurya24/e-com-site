@@ -1,4 +1,4 @@
-# Simple E-commerce Application
+# E-commerce Application
 
 An e-commerce application built with Spring Boot, demonstrating basic e-commerce functionality with a clean and modern UI.
 
