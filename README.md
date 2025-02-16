@@ -1,6 +1,6 @@
 # Simple E-commerce Application
 
-A beginner-friendly e-commerce application built with Spring Boot, demonstrating basic e-commerce functionality with a clean and modern UI.
+An e-commerce application built with Spring Boot, demonstrating basic e-commerce functionality with a clean and modern UI.
 
 ## Features
 
