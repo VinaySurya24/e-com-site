@@ -1,0 +1,50 @@
+/* Custom styles */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    color: #28a745;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Category badges */
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5em 1em;
+}
+
+/* Product details page */
+.product-image {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+/* Search bar */
+.search-bar {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+}
